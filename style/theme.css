@@ -1,0 +1,70 @@
+html, body
+{
+    background-image: url(../images/backgroundImageTemp.jpg);
+    font-family: verdana;
+}
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+.top-margin-pages {
+    margin: 2.5%;
+}
+style, height-project-menu {
+    height: 10%;
+}
+.square {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+}
+.textcentery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_container {
+    width: 100%;
+    /* height is 100% viewport height */
+    height: 55vh;
+    /* Hide overflow here to prevent scrolling */
+    overflow: hidden;
+    display: flex;
+  }
+  
+  
+  /* set the container to scroll */
+  
+  .notes_scroll {
+    height: 100%;
+    width:100%;
+    padding: 25px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .single_line_edit {
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-anchor:inherit;
+  }
+
+  .email_subject_style {
+    resize: none;
+    white-space: nowrap;
+    overflow: hidden;
+    
+  }
+
+  [contenteditable][placeholder]:empty:before {
+    content: attr(placeholder);
+    color: gray;
+    font-style: italic;
+    font-weight: bold;
+    background-color: transparent;
+  }
+
