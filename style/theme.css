@@ -36,6 +36,9 @@ style, height-project-menu {
     display: flex;
   }
   
+  .backgroundTextBlocks {
+    background-color:white;
+  }
   
   /* set the container to scroll */
   

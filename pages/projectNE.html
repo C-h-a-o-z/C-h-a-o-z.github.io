@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+
+<head>
+    <title>
+        Projecten
+    </title>
+    <!-- stylesheet -->
+    <link href="../style/theme.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body onload="projectSwitch(project1Page, 'Pong', 0)">
+    <div>
+        <a class="btn btn-dark" href="project.html" role="button">Taal</a>
+    </div>
+    <!--this is the body
+        <div id="bodyContent">
+
+        </div>
+        < !-- content -- >
+        <script src="./script/main.js"></script>-->
+
+
+    <div class="container text-center border-dark top-margin-pages p-5">
+
+        <div class="row border border-dark backgroundTextBlocks">
+
+            <div class="col-12 border border-dark">
+                <h1 id="TitleProject">Titel Pagina</h1>
+            </div>
+
+            <div class="col-1">
+                <div class="row">
+
+                    <div class="col-12 border border-dark square textcentery">
+                        <button id="proj0" onclick="projectSwitch(project1Page, 'Pong', 0); scrollTopDiv()">Project 1</button>
+                    </div>
+
+                    <div class="col-12 border border-dark square textcentery">
+                        <button id="proj1" onclick="projectSwitch(project2Page, '3D Wereld Ontwerp', 1); scrollTopDiv()">Project 2</button>
+                    </div>
+
+                    <div class="col-12 border border-dark square textcentery">
+                        <button id="proj2" onclick="projectSwitch(project3Page, 'Square Parkour Spel', 2); scrollTopDiv()">Project 3</button>
+                    </div>
+
+                    <div class="col-12 border border-dark square textcentery">
+                        <button id="proj3" onclick="projectSwitch(project4Page, 'Blender Model', 3); scrollTopDiv()">Project 4</button>
+                    </div>
+
+                    <div class="col-12 border border-dark square textcentery">
+                        <button id="proj4" onclick="projectSwitch(project5Page, 'Onbekend', 4); scrollTopDiv()">Project 5</button>
+                    </div>
+
+                </div> 
+            </div>
+            <div class="col-11">
+                <div class="row">
+                    <div class="col fixed main_container border border-dark align-items-center">
+                        <div class="col notes_scroll border border-dark" height="100px" , id="projectContent">
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../script/projectsNE.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>

@@ -12,7 +12,10 @@
 
 </head>
 
-<body onload="projectSwitch(project1Page, 'Pong')">
+<body onload="projectSwitch(project1Page, 'Pong', 0)">
+    <div>
+        <a class="btn btn-dark" href="projectNE.html" role="button">Language</a>
+    </div>
     <!--this is the body
         <div id="bodyContent">
 
@@ -21,9 +24,9 @@
         <script src="./script/main.js"></script>-->
 
 
-    <div class="container text-center border border-dark top-margin-pages p-5">
+    <div class="container text-center border-dark top-margin-pages p-5">
 
-        <div class="row border border-dark">
+        <div class="row border border-dark backgroundTextBlocks">
 
             <div class="col-12 border border-dark">
                 <h1 id="TitleProject">Title Project</h1>
@@ -33,26 +36,26 @@
                 <div class="row">
 
                     <div class="col-12 border border-dark square textcentery">
-                        <button onclick="projectSwitch(project1Page, 'Pong'); scrollTopDiv()">Project 1</button>
+                        <button id="proj0" onclick="projectSwitch(project1Page, 'Pong', 0); scrollTopDiv()">Project 1</button>
                     </div>
 
                     <div class="col-12 border border-dark square textcentery">
-                        <button onclick="projectSwitch(project2Page, '3D World Design'); scrollTopDiv()">Project 2</button>
+                        <button id="proj1" onclick="projectSwitch(project2Page, '3D World Design', 1); scrollTopDiv()">Project 2</button>
                     </div>
 
                     <div class="col-12 border border-dark square textcentery">
-                        <button onclick="projectSwitch(project3Page, 'Square Parkour Game'); scrollTopDiv()">Project 3</button>
+                        <button id="proj2" onclick="projectSwitch(project3Page, 'Square Parkour Game', 2); scrollTopDiv()">Project 3</button>
                     </div>
 
                     <div class="col-12 border border-dark square textcentery">
-                        <button onclick="projectSwitch(project4Page, 'Blender Model'); scrollTopDiv()">Project 4</button>
+                        <button id="proj3" onclick="projectSwitch(project4Page, 'Blender Model', 3); scrollTopDiv()">Project 4</button>
                     </div>
 
                     <div class="col-12 border border-dark square textcentery">
-                        <button onclick="projectSwitch(project5Page, 'Unknown'); scrollTopDiv()">Project 5</button>
+                        <button id="proj4" onclick="projectSwitch(project5Page, 'Unknown', 4); scrollTopDiv()">Project 5</button>
                     </div>
 
-                </div>
+                </div> 
             </div>
             <div class="col-11">
                 <div class="row">
